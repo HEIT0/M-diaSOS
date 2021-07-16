@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Média SOS</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="icon.png">
+	<meta name="twitter:image" content="icon.png">
+	<meta name="msapplication-TileImage" content="icon.png">
+</head>
+
+<body id='body'>
+
+	<h1 id='title'>Média SOS</h1>
+
+	<section id="Bl0co">
+		<!--Bloco 1-->
+
+		<h2 id='perg'> É de redação? </h2>
+
+		<div id='resp'>
+
+			<input type="radio" id='sim' name='red' onclick="sim()" on-drag="sim()" on-tap="sim()" onchange="sim()"> <!--Seleção Sim-->
+      <label for="sim">Sim</label>
+
+      <input type="radio" id='nao' name='red' checked onclick="nao()" on-drag="nao()" on-tap="nao()" onchange="nao()"> <!--Seleção Não-->
+      <label for="nao">Não</label>
+
+    </div>
+
+   </section>  <!--Finalizando Bloco 1-->
+   
+   <section id='bloco2'> 
+     <!--Bloco 2-->
+   
+    <p id='sumiu'>....</p>
+     
+  <p id='p1'> <strong> -</strong> Prova Mensal:  <input type="Number" id="txt1" name="PM1" min="0" max="10"> </p>
+
+  <p id='p2'> <strong>-</strong> Prova Bimestral:  <input id="txt2" type="Number" min="0" max="10"> </p>
+
+  <p id='p3'> <strong> -</strong> Pic:  <input type="Number" id="txt3" min="0" max="10"> </p>
+
+  <p id='p4'> <strong> -</strong> Testão: <input type="Number" id="txt4" min="0" max="10"> </p>
+
+    </section> <!--Finalização do Bloco 2-->
+
+<section id='bloco3'> 
+  <!--Bloco 3-->
+  
+<input type="button" value='Calcular' id='calcular' onclick='calcular()'>
+
+<div id='res'>
+</div>
+
+<div id='res2'>
+</div>
+
+</section> <!--Finalização Bloco 3-->
+
+<script src="script.js"></script>
+    
+<footer> <!--Creditos-->
+    <p id='credito'>
+      &copy; Heitor e Thiago
+    </p>
+</footer> <!--Creditos-->
+
+  </body>
+  
+</html>
