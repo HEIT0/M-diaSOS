@@ -59,20 +59,17 @@ function calcular() {
         redondo = x - ((x % 1)) + 0.5
       }
       //Corrige a Escrita
-      if (x % 1 == 0){
-              var g3x = Math.trunc(x).toString().replace(".", ",")
-      }else {
-              var g3x = x.toFixed(2).toString().replace(".", ",")
-
+      if (x % 1 == 0) {
+        var g3x = Math.trunc(x).toString().replace(".", ",")
+      } else {
+        var g3x = x.toFixed(2).toString().replace(".", ",")
       }
-      if (redondo % 1 == 0){
-          var g3z = Math.trunc(redondo).toString().replace(".", ",")
-
-      }else{
-            var g3z = redondo.toFixed(2).toString().replace(".", ",")
-
+      if (redondo % 1 == 0) {
+        var g3z = Math.trunc(redondo).toString().replace(".", ",")
+      } else {
+        var g3z = redondo.toFixed(2).toString().replace(".", ",")
       }
-     
+
       //Mostra o Resultado
       e.innerText = 'Sua média é ' + g3x
       f.innerText = 'Sua média arredondada é ' + g3z
