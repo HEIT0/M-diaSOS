@@ -121,3 +121,10 @@ div#resp {
   font: normal 14pt defult;
   margin-right: 5px;
 }
+
+input#calcular{
+  border-radius: 10px;
+  background: #D6D6D6;
+  font: normal 10pt Arial;
+  box-shadow: 1px 1px 3px black;
+}
